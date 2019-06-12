@@ -10,8 +10,12 @@ fn main() {
 struct Model {}
 
 fn model(_app: &App) -> Model {
+
+    let width  = 900 as u32;
+    let height = 900 as u32;
+
     _app.new_window()
-        .with_dimensions(900 as u32, 900 as u32)
+        .with_dimensions(width, height)
         .view(view)
         .build()
         .unwrap();
@@ -39,7 +43,7 @@ fn view(_app: &App, _model: &Model, frame: Frame) -> Frame {
             let size = noise.get([
                 x as f64,
                 y as f64,
-                (t*0.8) as f64
+                t as f64
             ]) as f32;
             //
             // if x == 0 && y == 0{
