@@ -28,8 +28,8 @@ fn view(_app: &App, _model: &Model, frame: Frame) -> Frame {
 
     let _win = app.window_rect();
 
-    // let (bx, by) = (app.mouse.x , app.mouse.y);
-    let (bx, by) = (0.,0.);
+    let (bx, by) = (app.mouse.x , app.mouse.y);
+    // let (bx, by) = (0.,0.);
 
     // Black Outer Border
     draw.rect()

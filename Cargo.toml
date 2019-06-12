@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "cotter-ring",
+    "push-circles",
+    "recurse-logo"
+]
