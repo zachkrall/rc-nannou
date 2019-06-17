@@ -1,7 +1,7 @@
 [workspace]
 
-members = [
+members = [	
     "cotter-ring",
-    "push-circles",
-    "recurse-logo"
+    "perlin-circles",
+    "recurse-logo",
 ]
