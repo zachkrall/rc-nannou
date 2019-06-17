@@ -2,6 +2,13 @@
 
 nannou sketchbook during my Summer 1 Batch @RecurseCenter
 
+## dependencies
+
+* rust: https://www.rust-lang.org/
+  * cargo (comes with rust)
+
+* vulkan sdk (should install the first time you try to build a nannou sketch)
+
 ## the workspace
 
 The root directory is a [cargo workspace](https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html)
