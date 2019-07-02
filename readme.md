@@ -1,6 +1,6 @@
 # nannou sketchbook
 
-nannou sketchbook during my Summer 1 Batch @RecurseCenter
+nannou sketchbook during my batch @ [The Recurse Center](recurse.com/about).
 
 ## dependencies
 

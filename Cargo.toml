@@ -3,5 +3,6 @@
 members = [	
     "cotter-ring",
     "perlin-circles",
+    "perlin-line",
     "recurse-logo",
 ]

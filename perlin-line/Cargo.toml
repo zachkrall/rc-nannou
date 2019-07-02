@@ -1,0 +1,10 @@
+[package]
+name = "perlin-line"
+version = "0.1.0"
+authors = ["Zach Krall <zach@zachkrall.com>"]
+edition = "2018"
+
+[dependencies]
+nannou = "0.9"
+palette = "0.2"
+rand = "0.6.5"
