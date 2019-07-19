@@ -39,7 +39,7 @@ fn view(_app: &App, _model: &Model, frame: Frame) -> Frame {
                 (t*0.8) as f64
             ]) as f32;
 
-        draw.rect()
+        draw.ellipse()
         .x_y(x * ring_size, y * ring_size)
         .w( size * 45.0 + 24.0)
         .h( size * 45.0 + 24.0)

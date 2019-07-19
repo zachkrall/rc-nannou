@@ -1,8 +1,11 @@
 [workspace]
 
 members = [	
+    "20190702",
     "cotter-ring",
+    "pattern",
     "perlin-circles",
     "perlin-line",
+    "perlin",
     "recurse-logo",
 ]
